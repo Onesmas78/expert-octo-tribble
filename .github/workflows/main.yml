@@ -62,7 +62,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=Onesmas78_expert-octo-tribble
-            -Dsonar.organization=Onesmas78
+            -Dsonar.organization=onesmas78
             -Dsonar.sources=app,config,database/factories,database/seeders,routes
             -Dsonar.tests=tests
             -Dsonar.php.coverage.reportPaths=coverage/coverage-report.xml

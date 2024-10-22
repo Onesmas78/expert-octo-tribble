@@ -71,4 +71,4 @@ jobs:
             -Dsonar.exclusions=vendor/**,storage/**,resources/views/errors/**,public/**,bootstrap/cache/**,*.json,*.lock,*.xml,*.yml,*.yaml,*.css,*.js
             -Dsonar.coverage.exclusions=database/migrations/**,routes/**,config/**,bootstrap/**,resources/**,lang/**
             -Dsonar.php.file.suffixes=php
-            -Dsonar.qualitygate.wait=false  # Don't wait for quality gate results
+            -Dsonar.qualitygate.wait=false

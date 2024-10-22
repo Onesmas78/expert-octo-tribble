@@ -57,7 +57,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=your-project-key
+            -Dsonar.projectKey=Onesmas78_expert-octo-tribble
             -Dsonar.organization=onesmas78
             -Dsonar.sources=app,config,database/factories,database/seeders,routes
             -Dsonar.tests=tests
